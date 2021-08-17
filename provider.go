@@ -7,7 +7,7 @@ import (
 func Provider() *schema.Provider {
 	return &schema.Provider{
 		DataSourcesMap: map[string]*schema.Resource{
-			"assert_test": dataSource(),
+			"asserting_test": dataSource(),
 		},
 	}
 }

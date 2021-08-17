@@ -8,7 +8,7 @@ Example usage:
 Throw exception if user is not using workspaces ( current workspace is default )  
 **main.tf**
 ```javascript
-data "assert_test" "workspace" {
+data "asserting_test" "workspace" {
     test = terraform.workspace != "default" // must return TRUE or FALSE
     throw = "default workspace is not valid in this project" // must be of type string
 }
