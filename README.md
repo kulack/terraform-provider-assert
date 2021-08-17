@@ -38,10 +38,10 @@ from version 13+ the way terraform fetches providers has changed. In your main c
 terraform {
   required_providers {
     assert = {
-      source  = "github.com/bwoznicki/assert"
+      source  = "github.com/kulack/assert"
     }
   }
 }
 ```
-Implicitly terraform still checks your local dir eg. **~/terraform.d/plugins** but you must place the binary in a sligltly different path eg. **.terraform.d/plugins/github.com/bwoznicki/assert/0.0.1/linux_amd64/** for linux.  
+Implicitly terraform still checks your local dir eg. **~/terraform.d/plugins** but you must place the binary in a sligltly different path eg. **.terraform.d/plugins/github.com/kulack/assert/0.0.1/linux_amd64/** for linux.  
 You can also specify a custom path where your local providers are fetched from using **~/terraformrc** or **~/terraform.rc** for more info pleace check official documentation https://www.terraform.io/docs/cli/config/config-file.html#provider-installation
