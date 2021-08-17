@@ -1,4 +1,4 @@
-module github.com/bwoznicki/terraform-provider-assert
+module github.com/kulack/terraform-provider-asserting
 
 go 1.16
 

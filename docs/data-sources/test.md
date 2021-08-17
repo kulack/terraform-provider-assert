@@ -1,5 +1,5 @@
 ---
-page_title: "assert_test Data Source - terraform-provider-assert"
+page_title: "assert_test Data Source - terraform-provider-asserting"
 subcategory: "Utility"
 description: |-
   Assert functionality for testing.
@@ -15,7 +15,7 @@ The assert provider is a utility for testing terraform configuration with assert
 terraform {
   required_providers {
     assert = {
-      source  = "bwoznicki/assert"
+      source  = "kulack/assert"
       version = "0.0.1"
     }
   }

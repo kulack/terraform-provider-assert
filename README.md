@@ -1,4 +1,6 @@
-# terraform-provider-assert
+# terraform-provider-asserting
+
+Forked from forked from bwoznicki/terraform-provider-assert
 
 Custom provider to enable assert like functionality in terraform.  
 
@@ -18,7 +20,7 @@ Terraform validates values at two stages:
 * during validation ( static variables passed to terraform or computed during validation )
 * during apply ( dynamic variables known after resource is created )
 
-terraform-provider-assert works in both stages, however, if you pass condition based on value computed from resource data it will only **throw** during apply stage.
+terraform-provider-asserting works in both stages, however, if you pass condition based on value computed from resource data it will only **throw** during apply stage.
 
 # Installation  
 ## terraform < 13.0  
